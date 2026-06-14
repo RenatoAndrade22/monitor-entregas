@@ -45,3 +45,7 @@ docker compose exec laravel.test php artisan migrate --seed
 ```
 
 Acesse no navegador: http://localhost:83
+
+Dados para login:
+email: admin@teste.com
+senha: 123456
