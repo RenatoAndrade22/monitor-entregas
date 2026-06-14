@@ -1,0 +1,65 @@
+/* Cores das linhas da tabela principal (Tons suaves pastel) */
+.row-success td { background-color: #f0fdf4 !important; border-bottom: 1px solid #dcfce7; }
+.row-warning td { background-color: #fefce8 !important; border-bottom: 1px solid #fef08a; }
+.row-danger td { background-color: #fef2f2 !important; border-bottom: 1px solid #fecaca; }
+
+.pagination { margin-bottom: 0; }
+
+/* Botões de gatilho da tabela principal */
+.btn-modal-trigger { text-decoration: none !important; font-size: 0.95rem; }
+.btn-modal-trigger:hover { text-decoration: underline !important; opacity: 0.8; }
+
+/* Tabelas dos modais */
+.custom-modal-table th {
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: #1e293b;
+    border-bottom: 2px solid #e2e8f0;
+    padding-bottom: 12px;
+    text-transform: none;
+}
+.custom-modal-table td { 
+    font-size: 0.88rem; 
+    padding: 14px 8px; 
+    color: #475569; 
+}
+
+/* Ícone de edição de endereço (caneta) */
+.edit-icon { color: #3b82f6; margin-left: 8px; opacity: 0.7; transition: opacity 0.2s; }
+.display-address:hover .edit-icon { opacity: 1; }
+
+/* Dropdown neutro e refinado de status */
+.custom-status-dropdown .dropdown-toggle { color: #475569 !important; }
+.custom-status-dropdown .dropdown-toggle::after { color: #94a3b8; vertical-align: middle; margin-left: 8px; }
+.custom-status-dropdown .dropdown-item { font-size: 0.85rem; color: #334155; padding: 8px 16px; }
+.custom-status-dropdown .dropdown-item:hover { background-color: #f8fafc; color: #0f172a; }
+
+/* Botões dos modais */
+.custom-btn-cancel { 
+    background-color: white; 
+    border: 1px solid #e2e8f0; 
+    color: #475569; 
+    font-weight: 500; 
+    border-radius: 6px; 
+    padding: 6px 16px; 
+}
+.custom-btn-cancel:hover { background-color: #f8fafc; border-color: #cbd5e1; }
+
+.custom-btn-save { 
+    background-color: #1d4ed8; 
+    color: white; 
+    font-weight: 500; 
+    border-radius: 6px; 
+    padding: 6px 20px; 
+}
+.custom-btn-save:hover { background-color: #1e40af; color: white; }
+
+/* Inputs arredondados */
+.custom-input { border: 1px solid #cbd5e1; border-radius: 6px; box-shadow: none !important; }
+.custom-input:focus { border-color: #3b82f6; }
+
+/* Scrollbar */
+.table-responsive::-webkit-scrollbar { width: 6px; }
+.table-responsive::-webkit-scrollbar-track { background: transparent; }
+.table-responsive::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 10px; }
+.table-responsive::-webkit-scrollbar-thumb:hover { background: #94a3b8; }

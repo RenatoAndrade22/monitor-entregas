@@ -1,0 +1,21 @@
+.card-gradient-primary {
+    background: linear-gradient(135deg, #0d6efd, #005cbf);
+    color: white;
+}
+
+.card-gradient-success {
+    background: linear-gradient(135deg, #198754, #157347);
+    color: white;
+}
+
+.card-gradient-warning {
+    background: linear-gradient(135deg, #ffc107, #ffaa00);
+    color: #212529;
+}
+
+/* Área do Gráfico */
+.chart-container {
+    position: relative;
+    height: 280px;
+    width: 100%;
+}
